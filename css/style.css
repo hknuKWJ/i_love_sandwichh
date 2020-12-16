@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+body{font-family: 'Yeon Sung', cursive;}
+
+@-webkit-keyframes b1 {
+	0%{transform: translate(558.2px, 168.5px);}
+	100%{transform: translate(0px, 0px);}
+}
+@-webkit-keyframes b2 {
+	0%{transform: translate(-583.5px, -3.6px);}
+	100%{transform: translate(0px, 0px);}
+}
+@-webkit-keyframes f1 {
+	0%{transform: translate(501px, -45.6px);}
+	100%{transform: translate(0px, 0px);}
+}
+@-webkit-keyframes f2 {
+	0%{transform: translate(411.6px, 200.7px);}
+	100%{transform: translate(0px, 0px);}
+}
+@-webkit-keyframes f3 {
+	0%{transform: translate(176.1px, 176.5px);}
+	100%{transform: translate(0px, 0px);}
+}
+@-webkit-keyframes f4 {
+	0%{transform: translate(241.2px, -19.5px);}
+	100%{transform: translate(0px, 0px);}
+}
+@-webkit-keyframes f5 {
+	0%{transform: translate(-14.5px, 85.1px);}
+	100%{transform: translate(0px, 0px);}
+}
+@-webkit-keyframes f6 {
+	0%{transform: translate(-87.7px, 11.4px);}
+	100%{transform: translate(0px, 0px);}
+}
+
+@-webkit-keyframes f7 {
+	0%{transform: translate(41.1px, -111.5px);}
+	100%{transform: translate(0px, 0px);}
+}
+
+@-webkit-keyframes f8 {
+	0%{transform: translate(-132.7px, -229.1px);}
+	100%{transform: translate(0px, 0px);}
+}
+@-webkit-keyframes f9 {
+	0%{transform: translate(-298px, -76.2px);}
+	100%{transform: translate(0px, 0px);}
+}
+
+@-webkit-keyframes f10 {
+	0%{transform: translate(-270px, 26.1px);}
+	100%{transform: translate(0px, 0px);}
+}
+
+@-webkit-keyframes f11 {
+	0%{transform: translate(-391.9px, -180.8px);}
+	100%{transform: translate(0px, 0px);}
+}
+@-webkit-keyframes f12 {
+	0%{transform: translate(-466.9px, 71.5px);}
+	100%{transform: translate(0px, 0px);}
+}
+@keyframes typing {
+  0%{width:0%}
+  100%{width: 386px};
+}
+@keyframes typing2 {
+  0%{width:0%}
+  50%{width:0%}
+  100%{width: 386px};
+}
+@keyframes point {
+  0%{width:0%}
+  80%{width:0%}
+  100%{width: 100%};
+}
+@keyframes t1 {
+	0%{opacity: 0;}
+	83.3%{opacity: 0;}
+	83.4%{opacity: 1;}
+	100%{opacity: 1;}
+}
+@keyframes tt {
+	0%{opacity: 0;}
+	87.4%{opacity: 0;}
+	87.5%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@keyframes spina {
+	0%{transform: translate(0px,0px) rotate(0deg);}
+	25%{transform: translate(10px,-8px) rotate(-60deg);}
+	50%{transform: translate(-14px,6px) rotate(80deg);}
+	100%{transform: translate(6px,-7px) rotate(-20deg);}
+}
+@keyframes spinb {
+	0%{transform: translate(0px,0px) rotate(0deg);}
+	25%{transform: translate(-8px,9px) rotate(-10deg);}
+	50%{transform: translate(4px,-3px) rotate(110deg);}
+	100%{transform: translate(-6px,5px) rotate(-30deg);}
+}
+@keyframes spinc {
+	0%{transform: translate(0px,0px) rotate(0deg);}
+	25%{transform: translate(-7px,-10px) rotate(30deg);}
+	50%{transform: translate(8px,3px) rotate(-140deg);}
+	100%{transform: translate(-2px,0px) rotate(70deg);}
+}
+@keyframes spind {
+	0%{transform: translate(0px,0px) rotate(0deg);}
+	25%{transform: translate(8px,2px) rotate(80deg);}
+	50%{transform: translate(-5px,-8px) rotate(-110deg);}
+	100%{transform: translate(3px,9px) rotate(30deg);}
+}
+@keyframes movea {
+	0%{transform: translate(0px,0px);}
+	100%{transform: translate(8px,-8px);}
+}
+@keyframes moveb {
+	0%{transform: translate(0px,0px);}
+	100%{transform: translate(-8px,8px);}
+}
+@keyframes pt {
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+@keyframes ptb {
+	0%{opacity: 0;}
+	75%{opacity: 0;}
+	90%{opacity: 1;}
+	100%{opacity: 0;}
+}
+
+
+.bg{width: 100%; 
+	height: 100%; 
+	background-color: white;
+	position: absolute;}
+.img{width: 100%; 
+	height: 100%; 
+	position: absolute;}
+
+.t1{width: 720px; height:92px; left: calc(75.95% - 360px); top: calc(10.74% - 46px); position: absolute; animation: t1; animation-fill-mode: forwards; animation-duration: 7s; animation-iteration-count: 1;}
+.t2{width: 152px; height:110px; left: calc(52.64% - 76px); top: calc(32.676% - 55px); position: absolute; animation: tt; animation-fill-mode: forwards; animation-duration: 8s; animation-iteration-count: 1;}
+.t3{width: 170px; height:110px; left: calc(64.84% - 85px); top: calc(34.76% - 55px); position: absolute; animation: tt; animation-fill-mode: forwards; animation-duration: 8s; animation-iteration-count: 1;}
+.t4{width: 172px; height:132px; left: calc(77.452% - 86px); top: calc(38% - 66px); position: absolute; animation: tt; animation-fill-mode: forwards; animation-duration: 8s; animation-iteration-count: 1;}
+.t5{width: 290px; height:26px; left: calc(12.359% - 145px); top: calc(93.037% - 13px); position: absolute; animation: tt; animation-fill-mode: forwards; animation-duration: 8s; animation-iteration-count: 1;}
+
+.bread1{width: 322px; height:526px; top: calc(50.648% - 263px); left: calc(13.125% - 161px); position: absolute; animation: b1; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.bread2{width: 322px; height:526px; bottom: calc(30.18% - 263px); right: calc(11.71% - 161px); position: absolute; animation: b2; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.movea{animation-fill-mode: backwards; animation: movea 2s steps(3, end); animation-delay: 10s; animation-iteration-count: infinite;}
+.moveb{animation-fill-mode: backwards; animation: moveb 2s steps(3, end); animation-delay: 10s; animation-iteration-count: infinite;}
+
+
+.topping1{width: 225px; height:225px; left: calc(28.56% - 112.5px); top: calc(48.08% - 112.5px); position: absolute; animation: f2; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.topping2{width: 242px; height:242px; left: calc(23.896% - 121px); top: calc(70.89% - 121px); position: absolute; animation: f1; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.topping3{width: 186px; height:186px; left: calc(40.83% - 93px); top: calc(50.32% - 93px); position: absolute; animation: f3; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.topping4{width: 158px; height:158px; left: calc(37.43% - 79px); top: calc(68.47% - 79px); position: absolute; animation: f4; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.topping5{width: 190px; height:190px; left: calc(50.77% - 95px); top: calc(58.79% - 95px); position: absolute; animation: f6; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.topping6{width: 178px; height:178px; left: calc(54.56% - 89px); top: calc(65.613% - 89px); position: absolute; animation: f5; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.topping7{width: 182px; height:182px; left: calc(47.86% - 91px); top: calc(76.998% - 91px); position: absolute; animation: f7; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.topping8{width: 120px; height:120px; left: calc(56.91% - 60px); top: calc(87.88% - 60px); position: absolute; animation: f8; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.topping9{width: 268px; height:268px; left: calc(65.518% - 134px); top: calc(73.726% - 134px); position: absolute; animation: f9; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.topping10{width: 142px; height:142px; left: calc(64.06% - 71px); top: calc(64.25% - 71px); position: absolute; animation: f10; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.topping11{width: 230px; height:230px; left: calc(70.41% - 115px); top: calc(83.41% - 115px); position: absolute; animation: f11; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.topping12{width: 176px; height:176px; left: calc(74.316% - 88px); top: calc(60.05% - 88px); position: absolute; animation: f12; animation-fill-mode: forwards; animation-duration: 1s; animation-iteration-count: 1; animation-timing-function: ease-in-out;}
+.spin{animation-fill-mode: backwards; animation: spina 4s steps(3, end); animation-delay: 10s; animation-iteration-count: infinite;}
+.spin2{animation-fill-mode: backwards; animation: spinb 4s steps(3, end); animation-delay: 10s; animation-iteration-count: infinite;}
+.spin3{animation-fill-mode: backwards; animation: spinc 4s steps(3, end); animation-delay: 10s; animation-iteration-count: infinite;}
+.spin4{animation-fill-mode: backwards; animation: spind 4s steps(3, end); animation-delay: 10s; animation-iteration-count: infinite;}
+.typing-txt{position:absolute; display: inline-block; height: 78px; left: calc(14.97% - 193px); top: calc(8% - 36px); overflow: hidden; animation: typing 2s steps(8, end) 1; 
+text-align: left; font-size: 4.5em; word-spacing:-1px; word-break: keep-all;}
+.typing-txt2{position:absolute; display: inline-block; height: 32px; left: calc(16.1% - 193px); top: calc(17% - 36px); overflow: hidden; animation: typing2 4s steps(25, end) 1; 
+text-align: left; font-size: 1.5em; word-spacing:-1px; word-break: keep-all;}
+
+.pt1{position:absolute; width: 11.7px; height: 11.7px; border-radius: 50%; background-color: #e8daa7; left: calc(29.31% - 5.85px); top: calc(8.22% - 5.85px); overflow: hidden; animation: pt 4.0s steps(1, end) 1; }
+.pt2{position:absolute; width: 11.7px; height: 11.7px; border-radius: 50%; background-color: #ca4d2b; left: calc(32.51% - 5.85px); top: calc(8.22% - 5.85px); overflow: hidden; animation: pt 4.2s steps(1, end) 1; }
+.pt3{position:absolute; width: 11.7px; height: 11.7px; border-radius: 50%; background-color: #d6d769; left: calc(35.7% - 5.85px); top: calc(8.22% - 5.85px); overflow: hidden; animation: pt 4.4s steps(1, end) 1; }
+.pt4{position:absolute; width: 11.7px; height: 11.7px; border-radius: 50%; background-color: #6dac02; left: calc(38.9% - 5.85px); top: calc(8.22% - 5.85px); overflow: hidden; animation: pt 4.6s steps(1, end) 1; }
+.pt5{position:absolute; width: 11.7px; height: 11.7px; border-radius: 50%; background-color: #a06282; left: calc(42.09% - 5.85px); top: calc(8.22% - 5.85px); overflow: hidden; animation: pt 4.8s steps(1, end) 1; }
+.pt6{position:absolute; width: 11.7px; height: 11.7px; border-radius: 50%; background-color: #fb8628; left: calc(45.285% - 5.85px); top: calc(8.22% - 5.85px); overflow: hidden; animation: pt 5.0s steps(1, end) 1; }
+.pt7{position:absolute; width: 11.7px; height: 11.7px; border-radius: 50%; background-color: #a22c28; left: calc(48.48% - 5.85px); top: calc(8.22% - 5.85px); overflow: hidden; animation: pt 5.2s steps(1, end) 1; }
+.pt8{position:absolute; width: 11.7px; height: 11.7px; border-radius: 50%; background-color: #e8daa7; left: calc(51.67% - 5.85px); top: calc(8.22% - 5.85px); overflow: hidden; animation: pt 5.4s steps(1, end) 1; }
+.repage{position:absolute; display: inline-block; left: calc(42% - 50px); top: calc(90% - 25px); overflow: hidden; animation-name: ptb; animation-duration: 11s; animation-fill-mode: forwards; text-align: center; font-size: 1em; word-spacing:-1px; word-break: keep-all; }
